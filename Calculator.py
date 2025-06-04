@@ -8,6 +8,7 @@ R = np.linspace(0,2,N_steps)
 armor_current = np.zeros(N_steps)
 internal_tension = np.zeros(N_steps)
 motor_angular_vel = np.zeros(N_steps)
+
 if __name__ == '__main__':
     import sympy as sym
     I_a, omega, E_a = sym.symbols('I_a, omega, E_a') 
