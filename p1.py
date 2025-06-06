@@ -57,7 +57,7 @@ z = odeint(dot_rotor_current,0,T)
 plt.plot(T,z,label='Corriente en rotor')
 plt.xlabel('Tiempo [s]')
 plt.ylabel('Corriente [A]')
-plt.title('i fw you heavy fro')
+plt.title('Corriente en rotor en función del tiempo')
 plt.grid(True)
 plt.show()
 
